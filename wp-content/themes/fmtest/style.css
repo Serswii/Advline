@@ -1,0 +1,38 @@
+/*
+Theme Name: Test
+Theme URI: https://wp-kama.ru/handbook/theme/child-theme#sozdanie-dochernej-temy
+Description: Описание темы Test
+Version: 1.0
+Author: Serswii
+*/
+.draggable {
+    height: auto !important;
+}
+.open-slide {
+    z-index: 1000 !important;
+    top: 50vh !important;
+    left: 26vw !important;
+}
+.fade-slider {
+    -webkit-transition: opacity 2000s ease-in-out;
+    -moz-transition: opacity 2000s ease-in-out;
+    -ms-transition: opacity 2000s ease-in-out;
+    -o-transition: opacity 2000s ease-in-out;
+    opacity: 1;
+}
+
+@media screen and (max-width: 719px){
+    .open-slide {
+        top: auto !important;
+        left: 0 !important;
+    }
+}
+@media screen and (min-width: 720px){
+    .open-slide {
+        position: absolute;
+        top: 50% !important;
+        left: 50% !important;
+        margin-right: -50% !important;
+        transform: translate(-50%, 0) !important;
+    }
+}
