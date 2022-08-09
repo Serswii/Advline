@@ -5,7 +5,17 @@ $(document).ready(function() {
         maxPages = button.data('max-pages'),
         category_name = button.data('cat'),
         block_post = document.querySelector('.photo-list');
-    let remaining_posts = document.querySelector('.quantity').textContent;
+    let remaining_posts = document.querySelector('.quantity').textContent,
+        index_slide = "0";
+    var slider = $('.fade-slider');
+    $('.fade-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        adaptiveHeight: true,
+    });
 
     button.click(function (event) {
         event.preventDefault();
@@ -63,7 +73,10 @@ $(document).ready(function() {
     $('.photo-list').on('click','#img_slide',function(event){
         let id_post = "#" + $(this).parent().attr('id');
         event.preventDefault();
-        $('.fade-slider').slick('goTo',$(id_post).index()).slick('setPosition');
+        if(index_slide !== id_post){
+            index_slide = id_post
+            $('.fade-slider').slick('goTo',$(index_slide).index()).slick('setPosition');
+        }
         $('#modal-photo').fadeIn("hide");
         $("#modal-photo").addClass('open-slide');
         $(".simplebox-overlay").css('display', 'block');
@@ -83,8 +96,11 @@ $(document).ready(function() {
     })
     $('.slide_click').on('click', function(event) {
         let id_post = "#" + $(this).parent().attr('id');
+        if(index_slide !== id_post){
+            index_slide = id_post
+            $('.fade-slider').slick('goTo',$(index_slide).index()).slick('setPosition');
+        }
         event.preventDefault();
 
-        $('.fade-slider').slick('goTo',$(id_post).index()).slick('setPosition');
     })
 });
