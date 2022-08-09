@@ -5,20 +5,11 @@ $(document).ready(function() {
         maxPages = button.data('max-pages'),
         category_name = button.data('cat'),
         block_post = document.querySelector('.photo-list');
-    let remaining_posts = document.querySelector('.quantity').textContent,
-        index_slide = "0";
-    var slider = $('.fade-slider');
-    $('.fade-slider').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear',
-        adaptiveHeight: true,
-    });
+    let index_slide = "0";
 
     button.click(function (event) {
         event.preventDefault();
+        let remaining_posts = document.querySelector('.quantity').textContent
         if(category_name === "momenty"){
             category_name = "my-life";
         }
