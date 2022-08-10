@@ -2,7 +2,7 @@
  $post = get_post($args['id_post']);
     setup_postdata($post); ?>
     <div class="slide">
-        <figure> <?php the_post_thumbnail(); ?></figure>
+        <figure><?php echo stripcslashes($args['image']); ?></figure>
         <ul class="date-location">
             <?php the_date("j F Y", '<li>', '</li>'); ?>
             <li class="location"><?php $all_the_tags = get_the_tags(get_the_ID());

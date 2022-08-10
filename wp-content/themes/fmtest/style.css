@@ -12,6 +12,7 @@ Author: Serswii
     z-index: 1000 !important;
     top: 50vh !important;
     left: 26vw !important;
+    opacity: 1;
 }
 .fade-slider {
     -webkit-transition: opacity 2000s ease-in-out;
@@ -33,6 +34,6 @@ Author: Serswii
         top: 50% !important;
         left: 50% !important;
         margin-right: -50% !important;
-        transform: translate(-50%, 0) !important;
+        transform: translate(-50%, 50%) !important;
     }
 }
