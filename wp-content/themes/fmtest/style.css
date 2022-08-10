@@ -21,7 +21,10 @@ Author: Serswii
     -o-transition: opacity 2000s ease-in-out;
     opacity: 1;
 }
-
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
 @media screen and (max-width: 719px){
     .open-slide {
         top: auto !important;

@@ -2,13 +2,10 @@ jQuery(document).ready(function(){
     $('#check-menu').click(function(){
         $("body, html").toggleClass('hidden');
     });
-    $('.photo-list').on('click', '.simplebox' ,function() {
+    $('.photo-list').on('click', '.slide_click' ,function() {
         $("body, html").toggleClass('hidden-modal');
     })
-    $('.photo-list').on('click', '.close-modal' ,function() {
-        $("body, html").toggleClass('hidden-modal');
-    })
-    $('.simplebox, .close-modal').click(function(){
+    $('.close-modal').click(function(){
         $("body, html").toggleClass('hidden-modal');
     });
     $('.tabs').tabs();
