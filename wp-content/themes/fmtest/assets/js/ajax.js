@@ -83,7 +83,6 @@ $(document).ready(function() {
         }
         $('#modal-photo').fadeIn("hide");
         let height = document.getElementById("modal-photo").clientHeight;
-        console.log(height);
         let width = document.getElementById("modal-photo").clientWidth;
         let position_height;
         if($(window).width() > 1440){
@@ -92,10 +91,8 @@ $(document).ready(function() {
             position_height = (($(window).height() - height) / 2) + $(window).scrollTop();
         }
         let position_width = ($(window).width()- width) / 2 ;
-        $("#modal-photo").css({'left': position_width + 'px', 'top': position_height + 'px', 'opacity': '1', 'animation': 'ani 1s forwards'});
-        // $("#modal-photo").css('top', position_height + 'px');
+        $("#modal-photo").css({'visibility': 'inherit','left': position_width + 'px', 'top': position_height + 'px', 'opacity': '1', 'animation': 'ani 1s forwards'});
         $(".simplebox-overlay").css('display', 'block');
-        console.log("sadadw");
     });
 
     $('body').on('click', '.simplebox-overlay',function (event) {
