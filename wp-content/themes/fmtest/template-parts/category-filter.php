@@ -10,7 +10,7 @@
             if ($categories) {
                 foreach ($categories as $cat) {
                     ?>
-                        <?php if($category_now->term_id === $cat->term_id || ($cat->name === "Моя жизнь" && !is_category())): ?>
+                        <?php if($category_now->term_id === $cat->term_id || ($cat->name === "Моя Жизнь" && !is_category())): ?>
                         <li class="active">
                     <?php else: ?>
                         <li>

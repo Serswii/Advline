@@ -1,7 +1,7 @@
  <?php
  $post = get_post($args['id_post']);
     setup_postdata($post); ?>
-    <div class="slide">
+    <div class="slide" tabindex="-1">
         <figure><?php echo stripcslashes($args['image']); ?></figure>
         <ul class="date-location">
             <?php the_date("j F Y", '<li>', '</li>'); ?>
