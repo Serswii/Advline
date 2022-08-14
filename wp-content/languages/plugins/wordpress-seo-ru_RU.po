@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-19 11:07:46+0000\n"
+"PO-Revision-Date: 2022-08-09 07:28:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -181,7 +181,7 @@ msgstr "Все типы перенаправлений"
 msgid "You should finish the %1$sfirst time configuration%2$s to make sure your SEO data has been optimized and you’ve set the essential Yoast SEO settings for your site."
 msgstr "Вы должны завершить %1$sпервую настройку%2$s, чтобы убедиться, что ваши SEO-данные были оптимизированы и вы установили основные настройки Yoast SEO для вашего сайта."
 
-#: src/integrations/admin/first-time-configuration-integration.php:115
+#: src/integrations/admin/first-time-configuration-integration.php:124
 msgid "First-time configuration"
 msgstr "Первая настройка"
 
@@ -377,75 +377,75 @@ msgstr "Продлите подписку на %s"
 msgid "Get started quickly with the %1$s%2$s First-time configuration%3$s and configure Yoast SEO with the optimal SEO settings for your site!"
 msgstr "Быстро начните работу с %1$sмастером первой конфигурации %2$s%3$s и настройте Yoast SEO с оптимальными параметрами SEO для вашего сайта!"
 
-#: inc/class-wpseo-replace-vars.php:1457
+#: inc/class-wpseo-replace-vars.php:1495
 msgid "Post Content"
 msgstr "Содержимое записи"
 
-#: inc/class-wpseo-replace-vars.php:1458
+#: inc/class-wpseo-replace-vars.php:1496
 msgid "Category Title"
 msgstr "Заголовок рубрики"
 
-#: inc/class-wpseo-replace-vars.php:1458
+#: inc/class-wpseo-replace-vars.php:1496
 msgid "Current or first category title"
 msgstr "Заголовок текущей или первой рубрики"
 
-#: inc/class-wpseo-replace-vars.php:1456
+#: inc/class-wpseo-replace-vars.php:1494
 msgid "Replaced with the permalink"
 msgstr "Заменено на постоянную ссылку"
 
-#: inc/class-wpseo-replace-vars.php:1457
+#: inc/class-wpseo-replace-vars.php:1495
 msgid "Replaced with the post content"
 msgstr "Заменено на содержимое записи"
 
-#: inc/class-wpseo-replace-vars.php:1455
+#: inc/class-wpseo-replace-vars.php:1493
 msgid "Author last name"
 msgstr "Фамилия автора"
 
-#: inc/class-wpseo-replace-vars.php:1454
+#: inc/class-wpseo-replace-vars.php:1492
 msgid "Author first name"
 msgstr "Имя автора"
 
-#: inc/class-wpseo-replace-vars.php:1453
+#: inc/class-wpseo-replace-vars.php:1491
 msgid "Replaced with the day the post was published"
 msgstr "Заменено днём публикации записи"
 
-#: inc/class-wpseo-replace-vars.php:1453
+#: inc/class-wpseo-replace-vars.php:1491
 msgid "Post day"
 msgstr "День публикации записи"
 
-#: inc/class-wpseo-replace-vars.php:1452
+#: inc/class-wpseo-replace-vars.php:1490
 msgid "Post month"
 msgstr "Месяц публикации записи"
 
-#: inc/class-wpseo-replace-vars.php:1451
+#: inc/class-wpseo-replace-vars.php:1489
 msgid "Replaced with the year the post was published"
 msgstr "Заменено на год публикации записи"
 
-#: inc/class-wpseo-replace-vars.php:1452
+#: inc/class-wpseo-replace-vars.php:1490
 msgid "Replaced with the month the post was published"
 msgstr "Заменено на месяц публикации записи"
 
-#: inc/class-wpseo-replace-vars.php:1454
+#: inc/class-wpseo-replace-vars.php:1492
 msgid "Replaced with the first name of the author"
 msgstr "Заменено на имя автора"
 
-#: inc/class-wpseo-replace-vars.php:1455
+#: inc/class-wpseo-replace-vars.php:1493
 msgid "Replaced with the last name of the author"
 msgstr "Заменено на фамилию автора"
 
-#: inc/class-wpseo-replace-vars.php:1451
+#: inc/class-wpseo-replace-vars.php:1489
 msgid "Post year"
 msgstr "Год публикации записи"
 
-#: inc/class-wpseo-replace-vars.php:1450
+#: inc/class-wpseo-replace-vars.php:1488
 msgid "Current day"
 msgstr "Текущий день"
 
-#: inc/class-wpseo-replace-vars.php:1449
+#: inc/class-wpseo-replace-vars.php:1487
 msgid "Current month"
 msgstr "Текущий месяц"
 
-#: inc/class-wpseo-replace-vars.php:1447
+#: inc/class-wpseo-replace-vars.php:1485
 msgid "Current date"
 msgstr "Текущая дата"
 
@@ -570,12 +570,13 @@ msgstr "Найдите соответствующие данные о вашем
 msgid "Find out how Insights can help you improve your content."
 msgstr "Узнайте, как инсайты могут помочь улучшить содержимое."
 
-#: admin/views/class-yoast-feature-toggles.php:115
+#: admin/views/class-yoast-feature-toggles.php:115 js/dist/new-settings.js:35
 msgid "Link suggestions"
 msgstr "Предложенная ссылка"
 
 #: admin/views/class-yoast-feature-toggles.php:106 js/dist/block-editor.js:445
 #: js/dist/classic-editor.js:441 js/dist/elementor.js:445
+#: js/dist/new-settings.js:35
 msgid "Insights"
 msgstr "Основное содержание"
 
@@ -829,7 +830,7 @@ msgid "This adds an author byline and reading time estimate to the article’s s
 msgstr "Это добавит имя автора и примерное время для чтения в сниппет статьи для Slack."
 
 #. translators: %s expands to the reading time number, in minutes
-#: src/presenters/slack/enhanced-data-presenter.php:54
+#: src/presenters/slack/enhanced-data-presenter.php:55
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s минута"
@@ -837,15 +838,15 @@ msgstr[1] "%s минуты"
 msgstr[2] "%s минут"
 
 #. translators: %s expands to the reading time number, in minutes
-#: src/presenters/slack/enhanced-data-presenter.php:54
+#: src/presenters/slack/enhanced-data-presenter.php:55
 msgid "Est. reading time"
 msgstr "Примерное время для чтения"
 
-#: src/presenters/slack/enhanced-data-presenter.php:49
+#: src/presenters/slack/enhanced-data-presenter.php:50
 msgid "Written by"
 msgstr "Написано автором"
 
-#: inc/class-wpseo-admin-bar-menu.php:364
+#: inc/class-wpseo-admin-bar-menu.php:390
 msgid "Google Rich Results Test"
 msgstr "Тест Google Rich Results"
 
@@ -922,15 +923,15 @@ msgstr "Оптимизация SEO-данных"
 msgid "You can probably find an answer to your question in our %1$shelp center%2$s."
 msgstr "Возможно, вы найдёте ответ на свой вопрос в нашем %1$sСправочном центре%2$s."
 
-#: inc/class-addon-manager.php:816
-msgid "Need support?"
-msgstr "Нужна помощь?"
-
 #. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
 #. closing anchor tag
 #: admin/views/class-yoast-feature-toggles.php:220
 msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
 msgstr "Отключение XML-карт сайта в Yoast SEO не приведет к отключению основных карт сайта WordPress. В некоторых случаях это %1$sможет привести к ошибкам SEO на вашем сайте%2$s. Об этом могут сообщать Google Search Console и другие нструменты."
+
+#: inc/class-addon-manager.php:816
+msgid "Need support?"
+msgstr "Нужна помощь?"
 
 #. translators: %s expands to a mailto support link.
 #: inc/class-addon-manager.php:822
@@ -1043,7 +1044,7 @@ msgid "Tech Article"
 msgstr "Техническая Статья"
 
 #: admin/views/class-yoast-feature-toggles.php:155
-#: admin/views/class-yoast-feature-toggles.php:156
+#: admin/views/class-yoast-feature-toggles.php:156 js/dist/new-settings.js:35
 msgid "Usage tracking"
 msgstr "Отслеживание использования"
 
@@ -1111,7 +1112,9 @@ msgid "The links columns show the number of articles on this site linking %3$sto
 msgstr "Столбцы ссылок отображают количество статей сайта, связанных %3$sс%4$s этой статьей и количество URL, связанных %3$sиз%4$s этой статьи. Узнайте больше, %1$sкак использовать эти функции для улучшения внутренней связности%2$s, что значительно улучшает SEO."
 
 #. translators: 1: Link to the Yoast SEO blog, 2: Link closing tag.
+#. translators: %1$s expands to an opening tag. %2$s expands to a closing tag.
 #: src/services/health-check/links-table-reports.php:71
+#: js/dist/new-settings.js:23
 msgid "The text link counter helps you improve your site structure. %1$sFind out how the text link counter can enhance your SEO%2$s."
 msgstr "Счетчик текстовых ссылок помогает вам улучшить структуру сайта. %1$sУзнайте больше, как счетчик текстовых ссылок улучшает SEO%2$s."
 
@@ -1178,11 +1181,11 @@ msgstr "Пожалуйста, прочтите %1$sэту статью спра�
 msgid "a theme that has proper title-tag theme support, or adapt your theme to have that support"
 msgstr "тема с поддержкой тега title или адаптируйте тему для этого"
 
-#: inc/class-wpseo-replace-vars.php:1445
+#: inc/class-wpseo-replace-vars.php:1483
 msgid "Term hierarchy"
 msgstr "Иерархия элементов"
 
-#: inc/class-wpseo-replace-vars.php:1445
+#: inc/class-wpseo-replace-vars.php:1483
 msgid "Replaced with the term ancestors hierarchy"
 msgstr "Заменено элементом родительной иерархии"
 
@@ -1436,12 +1439,6 @@ msgstr "Перепроверьте введенный формат URL Linkedin.
 msgid "Please check the format of the YouTube URL you entered. %s"
 msgstr "Перепроверьте введенный формат URL YouTube, %s"
 
-#. translators: 1: expands to a link opening tag; 2: expands to a link closing
-#. tag
-#: inc/language-utils.php:81
-msgid "A company name and logo need to be set for structured data to work properly. %1$sLearn more about the importance of structured data.%2$s"
-msgstr "Для правильной работы структурированных данных необходимо указать название и логотип компании. %1$sУзнайте больше о важности структурированных данных.%2$s"
-
 #. translators: %s expands to an invalid Facebook App ID.
 #: inc/options/class-wpseo-option.php:482
 msgid "%s does not seem to be a valid Facebook App ID. Please correct."
@@ -1580,27 +1577,27 @@ msgstr "Чтобы ознакомиться с актуальными резул
 msgid "Google has discontinued its Crawl Errors API. Therefore, any possible crawl errors you might have cannot be displayed here anymore. %1$sRead our statement on this for further information%2$s."
 msgstr "Работа Google API для проверки ошибок прекращена. По этой причине любые возможные результаты проверки не могут быть отображены. %1$sОзнакомьтесь с нашим соглашением по этому поводу для получения дальнейшей информации%2$s."
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:60
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:91
 msgid "Personal info"
 msgstr "Персональная информация"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:52
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:78
 #: js/dist/first-time-configuration.js:5
 msgid "Organization name"
 msgstr "Название организации"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:35
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:49
 msgid "Organization or person"
 msgstr "Организация или персона"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:32
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:38
-#: src/integrations/admin/first-time-configuration-integration.php:422
-#: src/integrations/admin/first-time-configuration-integration.php:435
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:46
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:52
+#: src/integrations/admin/first-time-configuration-integration.php:485
+#: src/integrations/admin/first-time-configuration-integration.php:498
 msgid "Organization"
 msgstr "Организация"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:28
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:42
 msgid "Choose whether the site represents an organization or a person."
 msgstr "Выберите, представляет ли сайт организацию или частное лицо."
 
@@ -1642,11 +1639,6 @@ msgstr "Ссылка на профиль в MySpace"
 msgid "Uncategorized"
 msgstr "Без категории"
 
-#. translators: %s expands to the SEO score.
-#: inc/class-wpseo-admin-bar-menu.php:647
-msgid "SEO score: %s"
-msgstr "Оценка SEO: %s"
-
 #: admin/views/tabs/social/accounts.php:20
 msgid "If a Wikipedia page for you or your organization exists, add it too."
 msgstr "Если в Википедии есть страница, посвященная вам или вашей организации, добавьте и ее."
@@ -1675,7 +1667,7 @@ msgstr "Принятые исходящие ссылки"
 msgid "Outgoing internal links"
 msgstr "Исходящие внутренние ссылки"
 
-#: admin/class-meta-columns.php:102 js/dist/block-editor.js:347
+#: admin/class-meta-columns.php:111 js/dist/block-editor.js:347
 #: js/dist/classic-editor.js:343 js/dist/dashboard-widget.js:20
 #: js/dist/editor-modules.js:289 js/dist/elementor.js:347
 msgid "Keyphrase"
@@ -1767,11 +1759,11 @@ msgstr "Измерение настроек постоянных ссылок м
 msgid "Not showing the date archives in the search results technically means those will have a %1$s robots meta. %2$sMore info on the search results settings%3$s."
 msgstr "Не показывать архивы по дате в результатах поиска технически значит, что они будут иметь метатэг %1$s robots.  %2$sБольше информации о настройках результатов поиска%3$s."
 
-#: inc/class-wpseo-admin-bar-menu.php:264
+#: inc/class-wpseo-admin-bar-menu.php:290
 msgid "Google Ads"
 msgstr "Google Ads"
 
-#: inc/class-wpseo-admin-bar-menu.php:353
+#: inc/class-wpseo-admin-bar-menu.php:379
 msgid "Check Keyphrase Density"
 msgstr "Проверить плотность ключевых слов"
 
@@ -1827,7 +1819,7 @@ msgstr "Очистить изображение"
 msgid "This feature has been disabled by the network admin."
 msgstr "Эта возможность отключена администратором сети."
 
-#: admin/class-meta-columns.php:152 admin/class-meta-columns.php:666
+#: admin/class-meta-columns.php:166
 msgid "Focus keyphrase not set."
 msgstr "Фокусное ключевое слово не установлено."
 
@@ -1862,7 +1854,7 @@ msgstr "Двоеточие"
 msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins at the same time is detrimental."
 msgstr "%1$s и %2$s управляют настройками SEO вашего сайта. Запуск двух плагинов SEO одновременно может навредить вашему сайту."
 
-#: inc/class-wpseo-admin-bar-menu.php:697
+#: inc/class-wpseo-admin-bar-menu.php:710
 msgid "There is a new notification."
 msgid_plural "There are new notifications."
 msgstr[0] "Есть новое уведомление."
@@ -1885,11 +1877,11 @@ msgstr "%1$s структурированные блоки данных"
 msgid "Great news: you can, with %s!"
 msgstr "Отличная новость: вы можете, с %s!"
 
-#: inc/class-wpseo-admin-bar-menu.php:348
+#: inc/class-wpseo-admin-bar-menu.php:374
 msgid "Check links to this URL"
 msgstr "Проверить ссылки на этот URL"
 
-#: inc/class-wpseo-admin-bar-menu.php:259
+#: inc/class-wpseo-admin-bar-menu.php:285
 msgid "Keyword research training"
 msgstr "Тренинг по ключевым словам"
 
@@ -1936,7 +1928,7 @@ msgstr "Вам не разрешено изменять незарегистри
 msgid "Would you like to add another keyphrase?"
 msgstr "Хотите добавить другое ключевое слово?"
 
-#: inc/class-wpseo-replace-vars.php:1434
+#: inc/class-wpseo-replace-vars.php:1472
 msgid "The site's tagline"
 msgstr "Слоган сайта"
 
@@ -1965,107 +1957,108 @@ msgstr "Вы не установили страницу магазина в на
 msgid "You can edit the SEO metadata for this custom type on the %1$sShop page%2$s."
 msgstr "Вы можете редактировать SEO мета-данные для этого пользовательского типа на %1$sстранице магазина%2$s."
 
-#: inc/class-wpseo-replace-vars.php:1448 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1486 js/dist/externals-redux.js:1
 msgid "Current year"
 msgstr "Этот год"
 
-#: inc/class-wpseo-replace-vars.php:1482
+#: inc/class-wpseo-replace-vars.php:1520
 msgid "Term404"
 msgstr "Элемент404"
 
-#: inc/class-wpseo-replace-vars.php:1480
+#: inc/class-wpseo-replace-vars.php:1518
 msgid "Caption"
 msgstr "Подпись"
 
-#: inc/class-wpseo-replace-vars.php:1479
+#: inc/class-wpseo-replace-vars.php:1517
 msgid "Pagenumber"
 msgstr "Номер страницы"
 
-#: inc/class-wpseo-replace-vars.php:1478
+#: inc/class-wpseo-replace-vars.php:1516
 msgid "Pagetotal"
 msgstr "Число страниц всего"
 
-#: inc/class-wpseo-replace-vars.php:1477
+#: inc/class-wpseo-replace-vars.php:1515
 msgid "Page number"
 msgstr "Номер страницы"
 
-#: inc/class-wpseo-replace-vars.php:1476
+#: inc/class-wpseo-replace-vars.php:1514
 msgid "User description"
 msgstr "Описание пользователя"
 
-#: inc/class-wpseo-replace-vars.php:1474 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1512 js/dist/externals-redux.js:1
 msgid "ID"
 msgstr "ID"
 
-#: inc/class-wpseo-replace-vars.php:1473
+#: inc/class-wpseo-replace-vars.php:1511
 msgid "Modified"
 msgstr "Изменено"
 
-#: inc/class-wpseo-replace-vars.php:1472
+#: inc/class-wpseo-replace-vars.php:1510
 msgid "Post type (plural)"
 msgstr "Тип записей (plural)"
 
-#: inc/class-wpseo-replace-vars.php:1471
+#: inc/class-wpseo-replace-vars.php:1509
 msgid "Post type (singular)"
 msgstr "Тип записи (singular)"
 
-#: inc/class-wpseo-replace-vars.php:1446 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1484 js/dist/externals-redux.js:1
 msgid "Separator"
 msgstr "Разделитель"
 
-#: inc/class-wpseo-replace-vars.php:1444 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1482 js/dist/externals-redux.js:1
 msgid "Search phrase"
 msgstr "Поисковая фраза"
 
-#: inc/class-wpseo-replace-vars.php:1443
+#: inc/class-wpseo-replace-vars.php:1481
 msgid "Term title"
 msgstr "Заголовок элемента"
 
-#: inc/class-wpseo-replace-vars.php:1442 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1480 js/dist/externals-redux.js:1
 msgid "Term description"
 msgstr "Описание элемента"
 
-#: inc/class-wpseo-replace-vars.php:1441 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1479 js/dist/externals-redux.js:1
 msgid "Tag description"
 msgstr "Описание метки"
 
-#: inc/class-wpseo-replace-vars.php:1440 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1478 js/dist/externals-redux.js:1
 msgid "Category description"
 msgstr "Описание рубрики"
 
-#: inc/class-wpseo-replace-vars.php:1439 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1477 js/dist/externals-redux.js:1
 msgid "Primary category"
 msgstr "Основная рубрика"
 
-#: inc/class-wpseo-replace-vars.php:1438 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1476 js/dist/externals-redux.js:1
 msgid "Category"
 msgstr "Рубрика"
 
-#: inc/class-wpseo-replace-vars.php:1437
+#: inc/class-wpseo-replace-vars.php:1475
 msgid "Tag"
 msgstr "Метка"
 
-#: inc/class-wpseo-replace-vars.php:1436 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1474 js/dist/externals-redux.js:1
 msgid "Excerpt only"
 msgstr "Только отрывок"
 
-#: inc/class-wpseo-replace-vars.php:1435 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1473 js/dist/externals-redux.js:1
 msgid "Excerpt"
 msgstr "Отрывок"
 
-#: inc/class-wpseo-replace-vars.php:1433 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1471 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:13
 msgid "Site title"
 msgstr "Название сайта"
 
-#: inc/class-wpseo-replace-vars.php:1432
+#: inc/class-wpseo-replace-vars.php:1470
 msgid "Archive title"
 msgstr "Заголовок архива"
 
-#: inc/class-wpseo-replace-vars.php:1431 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1469 js/dist/externals-redux.js:1
 msgid "Parent title"
 msgstr "Заголовок родителя"
 
-#: inc/class-wpseo-replace-vars.php:1429 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1467 js/dist/externals-redux.js:1
 msgid "Date"
 msgstr "Дата"
 
@@ -2093,19 +2086,20 @@ msgstr "Вы удалили %1$s."
 msgid "You just trashed a %1$s."
 msgstr "Вы переместили %1$s в корзину."
 
-#: inc/class-wpseo-replace-vars.php:1483
+#: inc/class-wpseo-replace-vars.php:1521
 msgid "(custom field)"
 msgstr "(произвольное поле)"
 
-#: inc/class-wpseo-replace-vars.php:1484
+#: inc/class-wpseo-replace-vars.php:1522
 msgid "(custom taxonomy)"
 msgstr "(произвольная таксономия)"
 
-#: inc/class-wpseo-replace-vars.php:1485
+#: inc/class-wpseo-replace-vars.php:1523
 msgid "description (custom taxonomy)"
 msgstr "описание (произвольная таксономия)"
 
-#: inc/class-wpseo-replace-vars.php:1434 js/dist/externals-redux.js:1
+#: inc/class-wpseo-replace-vars.php:1472 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:13
 msgid "Tagline"
 msgstr "Подзаголовок"
 
@@ -2150,7 +2144,7 @@ msgstr "Очистка данных %s не удалась."
 msgid "The %s importer functionality uses temporary database tables. It seems your WordPress install does not have the capability to do this, please consult your hosting provider."
 msgstr "Импортер %s использует временные таблицы баз данных. WordPress, который вы используете, не может делать этого. Пожалуйста, обратитесь к вашему хостинг-провайдеру."
 
-#: inc/class-wpseo-replace-vars.php:1432
+#: inc/class-wpseo-replace-vars.php:1470
 msgid "Replaced with the normal title for an archive generated by WordPress"
 msgstr "Заменено на нормальный заголовок для архива, сгенерированного WordPress"
 
@@ -2330,15 +2324,15 @@ msgstr "Узнайте больше о настройках URL медиафай
 msgid "Help on the date archives search results setting"
 msgstr "Помощь в настройке результатов поиска в датированных архивах"
 
-#: admin/views/tabs/metas/paper-content/general/homepage.php:13
-msgid "This is what shows in the search results when people find your homepage. This means this is probably what they see when they search for your brand name."
-msgstr "Так выглядит результат поиска, когда люди находят вашу домашнюю страницу. То есть, вероятно, они видят это, когда ищут имя вашего бренда."
-
 #. translators: 1: expands to <code>noindex</code>; 2: link open tag; 3: link
 #. close tag.
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:53
 msgid "Not showing the archives for authors without posts in the search results technically means those will have a %1$s robots meta and will be excluded from XML sitemaps. %2$sMore info on the search results settings%3$s."
 msgstr "Запрет показа архива авторов без публикаций в результатах поиска технически означает, что у них будет %1$s тег в robots meta и они будут исключены из XML карт сайта. %2$sБольше информации о настройках результатов поиска%3$s."
+
+#: admin/views/tabs/metas/paper-content/general/homepage.php:13
+msgid "This is what shows in the search results when people find your homepage. This means this is probably what they see when they search for your brand name."
+msgstr "Так выглядит результат поиска, когда люди находят вашу домашнюю страницу. То есть, вероятно, они видят это, когда ищут имя вашего бренда."
 
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:37
 msgid "date archives"
@@ -2412,7 +2406,7 @@ msgstr "Справка по: %s"
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:14
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:14
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: js/dist/externals/componentsNew.js:764
+#: js/dist/externals/componentsNew.js:778
 msgid "Off"
 msgstr "Выкл"
 
@@ -2422,7 +2416,7 @@ msgstr "Выкл"
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:13
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:13
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: js/dist/externals/componentsNew.js:764
+#: js/dist/externals/componentsNew.js:778
 msgid "On"
 msgstr "Вкл"
 
@@ -2539,7 +2533,7 @@ msgid "Read more about how %s works."
 msgstr "Узнайте больше о том, как работает %s."
 
 #: admin/formatter/class-metabox-formatter.php:198
-#: js/dist/externals/analysisReport.js:32
+#: js/dist/externals/analysisReport.js:35
 msgid "Good results"
 msgstr "Хорошие результаты"
 
@@ -2585,7 +2579,7 @@ msgid "The cornerstone content feature lets you to mark and filter cornerstone c
 msgstr "Функция ключевого содержимого позволяет вам указывать ключевое содержимое на вашем сайте и фильтровать по нему."
 
 #: admin/views/class-yoast-feature-toggles.php:74
-#: js/dist/externals-components.js:100
+#: js/dist/externals-components.js:100 js/dist/new-settings.js:35
 msgid "SEO analysis"
 msgstr "SEO-анализ"
 
@@ -2612,7 +2606,7 @@ msgid "Remove highlight from the text"
 msgstr "Убрать выделение из текста"
 
 #: admin/formatter/class-metabox-formatter.php:194
-#: js/dist/externals/analysisReport.js:32
+#: js/dist/externals/analysisReport.js:35
 msgid "Errors"
 msgstr "Ошибки"
 
@@ -2626,7 +2620,7 @@ msgid "First-time SEO configuration"
 msgstr "Первичная SEO настройка"
 
 #: admin/formatter/class-metabox-formatter.php:197
-#: js/dist/externals/analysisReport.js:32
+#: js/dist/externals/analysisReport.js:35
 msgid "Considerations"
 msgstr "На рассмотрении"
 
@@ -2731,11 +2725,11 @@ msgstr "Активирован"
 msgid "Not activated"
 msgstr "Не активирован"
 
-#: admin/class-meta-columns.php:251
+#: admin/class-meta-columns.php:267
 msgid "All Readability Scores"
 msgstr "Все оценки читаемости"
 
-#: admin/class-meta-columns.php:247
+#: admin/class-meta-columns.php:263
 msgid "Filter by Readability Score"
 msgstr "Фильтровать по оценке читаемости"
 
@@ -2761,7 +2755,7 @@ msgstr "Читабельность: %s"
 msgid "Request method %1$s is not valid."
 msgstr "Метод запроса %1$s неверен."
 
-#: admin/views/class-yoast-feature-toggles.php:98
+#: admin/views/class-yoast-feature-toggles.php:98 js/dist/new-settings.js:35
 msgid "Text link counter"
 msgstr "Счетчик текстовых ссылок"
 
@@ -2773,7 +2767,8 @@ msgstr "Число внутренних ссылок, ссылающихся н�
 msgid "Number of outgoing internal links in this post. See \"Yoast Columns\" text in the help tab for more info."
 msgstr "Количество внутренних ссылок в этом посте. Подробности во вкладке Помощь, \"Столбцы Yoast\"."
 
-#: admin/class-meta-columns.php:95 admin/taxonomy/class-taxonomy-columns.php:72
+#: admin/class-meta-columns.php:104
+#: admin/taxonomy/class-taxonomy-columns.php:91
 msgid "Readability score"
 msgstr "Оценка читабельности"
 
@@ -2795,7 +2790,7 @@ msgstr "Другие возможности %s для вас:"
 
 #: admin/filters/class-cornerstone-filter.php:87
 #: admin/views/class-yoast-feature-toggles.php:90
-#: js/dist/externals-components.js:14
+#: js/dist/externals-components.js:14 js/dist/new-settings.js:35
 msgid "Cornerstone content"
 msgstr "Ключевое содержимое"
 
@@ -2804,7 +2799,8 @@ msgid "Upgrade Premium"
 msgstr "Обновитесь до Премиум"
 
 #: admin/class-yoast-form.php:140 admin/class-yoast-form.php:145
-#: js/dist/first-time-configuration.js:3 js/dist/settings.js:104
+#: js/dist/first-time-configuration.js:3 js/dist/new-settings.js:1
+#: js/dist/settings.js:104
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
@@ -2860,10 +2856,12 @@ msgid "No more dead links"
 msgstr "Больше никаких мертвых ссылок"
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:32
+#: js/dist/new-settings.js:3
 msgid "Variable"
 msgstr "Переменная"
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:25
+#: js/dist/new-settings.js:3
 msgid "Available variables"
 msgstr "Доступные переменные"
 
@@ -2893,7 +2891,7 @@ msgstr "%1$s, Автор в %2$s"
 msgid "Marks are disabled in current view"
 msgstr "Маhrths отключены в текущем представлении"
 
-#: inc/class-wpseo-replace-vars.php:1475 js/dist/first-time-configuration.js:5
+#: inc/class-wpseo-replace-vars.php:1513 js/dist/first-time-configuration.js:5
 #: js/dist/settings.js:94
 msgid "Name"
 msgstr "Имя"
@@ -2945,11 +2943,12 @@ msgstr "%1$s меню администратора. Панель содержи�
 msgid "%1$s will check weekly if your site is still indexable by search engines and %2$s will notify you when this is not the case."
 msgstr "%1$s проверяет ежедневно, если ваш сайт индексируется поисковыми системами и %2$s  уведомляет вас, если это не так."
 
-#: admin/views/class-yoast-feature-toggles.php:137
+#: admin/views/class-yoast-feature-toggles.php:137 js/dist/new-settings.js:35
 msgid "Admin bar menu"
 msgstr "Меню в панели администратора"
 
-#: admin/metabox/class-metabox.php:172 js/dist/externals/analysis.js:359
+#: admin/metabox/class-metabox.php:172 js/dist/externals/analysis.js:211
+#: js/dist/externals/analysis.js:265 js/dist/externals/analysis.js:359
 #: js/dist/externals/replacementVariableEditor.js:74
 #: js/dist/externals/searchMetadataPreviews.js:243
 msgid "SEO title"
@@ -3153,7 +3152,7 @@ msgid "Get Premium"
 msgstr "Улучшить до Премиум"
 
 #: admin/views/partial-notifications-warnings.php:20
-#: inc/class-wpseo-admin-bar-menu.php:220
+#: inc/class-wpseo-admin-bar-menu.php:246
 msgid "Notifications"
 msgstr "Уведомления"
 
@@ -3169,7 +3168,7 @@ msgstr "Настройки Pinterest"
 msgid "Twitter settings"
 msgstr "Настройки Twitter"
 
-#: inc/class-wpseo-admin-bar-menu.php:269
+#: inc/class-wpseo-admin-bar-menu.php:295
 msgid "Google Trends"
 msgstr "Google тренды"
 
@@ -3182,7 +3181,7 @@ msgid "Disable SEO analysis"
 msgstr "Отключить SEO-анализ"
 
 #. translators: %s: number of notifications
-#: admin/menu/class-admin-menu.php:120 inc/class-wpseo-admin-bar-menu.php:677
+#: admin/menu/class-admin-menu.php:120 inc/class-wpseo-admin-bar-menu.php:690
 msgid "%s notification"
 msgid_plural "%s notifications"
 msgstr[0] "%s уведомление"
@@ -3222,7 +3221,7 @@ msgid "Disable readability analysis"
 msgstr "Отключить анализ читаемости"
 
 #: admin/views/class-yoast-feature-toggles.php:82
-#: js/dist/externals-components.js:40
+#: js/dist/externals-components.js:40 js/dist/new-settings.js:35
 msgid "Readability analysis"
 msgstr "Анализ удобочитаемости"
 
@@ -3236,13 +3235,13 @@ msgid "Removes the readability analysis section from the metabox and disables al
 msgstr "Удаляет вкладку \"Читаемость\" из METABOX и отключает все связанные с ней предложения."
 
 #: admin/formatter/class-metabox-formatter.php:196
-#: js/dist/externals/analysisReport.js:32
+#: js/dist/externals/analysisReport.js:35
 msgid "Improvements"
 msgstr "Улучшения"
 
 #: admin/formatter/class-metabox-formatter.php:195
 #: admin/views/partial-notifications-errors.php:20
-#: js/dist/externals/analysisReport.js:32
+#: js/dist/externals/analysisReport.js:35
 msgid "Problems"
 msgstr "Проблемы"
 
@@ -3255,7 +3254,7 @@ msgstr "Анализ"
 msgid "Good job! We could detect no serious SEO problems."
 msgstr "Отличная работа! Каких-либо серьезных проблем SEO не обнаружено."
 
-#: admin/class-meta-columns.php:219
+#: admin/class-meta-columns.php:235
 msgid "Filter by SEO Score"
 msgstr "Фильтровать по SEO Оценке"
 
@@ -3273,7 +3272,7 @@ msgstr "Консоль"
 msgid "We have detected the following issues that affect the SEO of your site."
 msgstr "Мы обнаружили следующие проблемы, влияющие на SEO вашего сайта."
 
-#: admin/class-meta-columns.php:139
+#: admin/class-meta-columns.php:151
 msgid "Meta description not set."
 msgstr "Мета-описание не задано."
 
@@ -3286,7 +3285,7 @@ msgstr "Недоступно"
 msgid "Pinterest confirmation"
 msgstr "Подтверждение Pinterest "
 
-#: inc/class-wpseo-replace-vars.php:1439
+#: inc/class-wpseo-replace-vars.php:1477
 msgid "Replaced with the primary category of the post/page"
 msgstr "Основная рубрика записи/страницы"
 
@@ -3382,7 +3381,7 @@ msgstr "Основная %s"
 msgid "Show Blog page"
 msgstr "Показывать страницу блога"
 
-#: admin/taxonomy/class-taxonomy-columns.php:137
+#: admin/taxonomy/class-taxonomy-columns.php:152
 msgid "Term is set to noindex."
 msgstr "Для элемента задан атрибут noindex."
 
@@ -3402,7 +3401,7 @@ msgid "Disabled"
 msgstr "Отключено"
 
 #. translators: %s: wp_title() function.
-#: inc/class-wpseo-replace-vars.php:1421
+#: inc/class-wpseo-replace-vars.php:1459
 msgid "The separator defined in your theme's %s tag."
 msgstr "Разделитель определен в вашей теме %s тег."
 
@@ -3415,12 +3414,13 @@ msgstr "Не индексировать"
 msgid "Once Weekly"
 msgstr "Раз в неделю"
 
-#: admin/class-meta-columns.php:91 admin/taxonomy/class-taxonomy-columns.php:68
+#: admin/class-meta-columns.php:100
+#: admin/taxonomy/class-taxonomy-columns.php:87
 msgid "SEO score"
 msgstr "Оценка SEO"
 
 #. translators: %1$s expands to the option name and %2$sexpands to Yoast SEO
-#: inc/options/class-wpseo-option-ms.php:206
+#: inc/options/class-wpseo-option-ms.php:207
 msgid "%1$s is not a valid choice for who should be allowed access to the %2$s settings. Value reset to the default."
 msgstr "%1$s — это неправильное значение для имени пользователя, которому можно разрешить доступ к настройкам %2$s. Значение сброшено к первоначальному."
 
@@ -3443,7 +3443,7 @@ msgstr "%s — некорректный адрес URL. Пожалуйста, и
 msgid "Activation failed:"
 msgstr "Не удалось активировать:"
 
-#: inc/class-wpseo-admin-bar-menu.php:339
+#: inc/class-wpseo-admin-bar-menu.php:365
 msgid "Analyze this page"
 msgstr "Проанализировать эту страницу"
 
@@ -3451,11 +3451,11 @@ msgstr "Проанализировать эту страницу"
 msgid "Archives for"
 msgstr "Архивы для"
 
-#: inc/class-wpseo-admin-bar-menu.php:384
+#: inc/class-wpseo-admin-bar-menu.php:410
 msgid "CSS Validator"
 msgstr "Валидатор CSS"
 
-#: inc/class-wpseo-admin-bar-menu.php:359
+#: inc/class-wpseo-admin-bar-menu.php:385
 msgid "Check Google Cache"
 msgstr "Проверить кэш Google "
 
@@ -3463,7 +3463,7 @@ msgstr "Проверить кэш Google "
 msgid "Error 404: Page not found"
 msgstr "Ошибка 404: страница не найдена"
 
-#: inc/class-wpseo-admin-bar-menu.php:369
+#: inc/class-wpseo-admin-bar-menu.php:395
 msgid "Facebook Debugger"
 msgstr "Отладчик Facebook"
 
@@ -3479,11 +3479,11 @@ msgstr "Отладчик Facebook"
 msgid "Good"
 msgstr "Хорошо"
 
-#: inc/class-wpseo-admin-bar-menu.php:389
+#: inc/class-wpseo-admin-bar-menu.php:415
 msgid "Google Page Speed Test"
 msgstr "Тест скорости загрузки страницы от Google"
 
-#: inc/class-wpseo-admin-bar-menu.php:379
+#: inc/class-wpseo-admin-bar-menu.php:405
 msgid "HTML Validator"
 msgstr "Валидатор HTML"
 
@@ -3491,19 +3491,19 @@ msgstr "Валидатор HTML"
 msgid "Home"
 msgstr "Главная страница"
 
-#: inc/class-wpseo-admin-bar-menu.php:251
+#: inc/class-wpseo-admin-bar-menu.php:277
 msgid "Keyword Research"
 msgstr "Исследование ключевых слов"
 
-#: inc/class-wpseo-admin-bar-menu.php:394
+#: inc/class-wpseo-admin-bar-menu.php:420
 msgid "Mobile-Friendly Test"
 msgstr "Тестирование использования на мобильных устройствах"
 
-#: inc/options/class-wpseo-option-ms.php:242
+#: inc/options/class-wpseo-option-ms.php:243
 msgid "No numeric value was received."
 msgstr "Нет числового значения."
 
-#: inc/class-wpseo-admin-bar-menu.php:374
+#: inc/class-wpseo-admin-bar-menu.php:400
 msgid "Pinterest Rich Pins Validator"
 msgstr "Валидатор Pinterest Rich Pins"
 
@@ -3517,8 +3517,8 @@ msgstr "Пожалуйста выберите корректный тип зап
 msgid "Please select a valid taxonomy for post type \"%s\""
 msgstr "Пожалуйста, выберите допустимую таксономию для типа записей «%s»"
 
-#: inc/class-wpseo-admin-bar-menu.php:429
-#: inc/class-wpseo-admin-bar-menu.php:477
+#: inc/class-wpseo-admin-bar-menu.php:455
+#: inc/class-wpseo-admin-bar-menu.php:503
 msgid "SEO Settings"
 msgstr "Настройки SEO"
 
@@ -3545,8 +3545,8 @@ msgstr "Установка плагина %1$s не завершена. Обра
 msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
 msgstr "Похоже, что стандартная библиотека PHP (SPL) недоступна. Пожалуйста, попросите вашу хостинг-компанию включить ее."
 
-#: inc/options/class-wpseo-option-ms.php:226
-#: inc/options/class-wpseo-option-ms.php:242
+#: inc/options/class-wpseo-option-ms.php:227
+#: inc/options/class-wpseo-option-ms.php:243
 msgid "The default blog setting must be the numeric blog id of the blog you want to use as default."
 msgstr "Настройка «блог по умолчанию» должна быть числовым ID того блога, который вы хотите использовать по умолчанию."
 
@@ -3559,7 +3559,7 @@ msgid "The first true all-in-one SEO solution for WordPress, including on-page c
 msgstr "Первое настоящее и полноценное решение для SEO в WordPress, в которое включен анализ содержимого страницы, создание карты сайта в формате XML и многое другое."
 
 #. translators: %s is the ID number of a blog.
-#: inc/options/class-wpseo-option-ms.php:230
+#: inc/options/class-wpseo-option-ms.php:231
 msgid "This must be an existing blog. Blog %s does not exist or has been marked as deleted."
 msgstr "Этот идентификатор должен принадлежать существующему блогу. Блог %s - не существует, или помечен на удаление."
 
@@ -3609,18 +3609,22 @@ msgid "&laquo; Back to Tools page"
 msgstr "&laquo; назад на страницу инструментов"
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:39
+#: js/dist/new-settings.js:3
 msgid "A link to the archive for the post author, with the authors name as anchor text."
 msgstr "Ссылка на архив автора записи с именем автора в качестве текста ссылки."
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:43
+#: js/dist/new-settings.js:3
 msgid "A link to the post, with the title as anchor text."
 msgstr "Ссылка на запись с названием в качестве текста ссылки."
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:51
+#: js/dist/new-settings.js:3
 msgid "A link to your site, with your site's name and description as anchor text."
 msgstr "Ссылка на ваш сайт с именем вашего сайта и описанием в качестве текста ссылки."
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:47
+#: js/dist/new-settings.js:3
 msgid "A link to your site, with your site's name as anchor text."
 msgstr "Ссылка на ваш сайт с названием сайта в качестве текста ссылки."
 
@@ -3653,6 +3657,7 @@ msgid "Bulk editor"
 msgstr "Групповой редактор"
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:14
+#: js/dist/new-settings.js:3
 msgid "Content to put before each post in the feed"
 msgstr "Содержимое для размещения перед каждой Записью в ленте новостей"
 
@@ -3665,7 +3670,7 @@ msgid "Default settings"
 msgstr "Настройки по умолчанию"
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:33
-#: admin/views/tool-bulk-editor.php:111
+#: admin/views/tool-bulk-editor.php:111 js/dist/new-settings.js:3
 msgid "Description"
 msgstr "Описание"
 
@@ -3700,107 +3705,107 @@ msgstr "Страница не найдена"
 msgid "Prefix for the breadcrumb path"
 msgstr "Префикс"
 
-#: inc/class-wpseo-replace-vars.php:1485
+#: inc/class-wpseo-replace-vars.php:1523
 msgid "Replaced with a custom taxonomies description"
 msgstr "Описание произвольной таксономии"
 
-#: inc/class-wpseo-replace-vars.php:1483
+#: inc/class-wpseo-replace-vars.php:1521
 msgid "Replaced with a posts custom field value"
 msgstr "Значение пользовательского поля из записи"
 
-#: inc/class-wpseo-replace-vars.php:1484
+#: inc/class-wpseo-replace-vars.php:1522
 msgid "Replaced with a posts custom taxonomies, comma separated."
 msgstr "Значение пользовательских таксономий из записи (через запятую)"
 
-#: inc/class-wpseo-replace-vars.php:1440
+#: inc/class-wpseo-replace-vars.php:1478
 msgid "Replaced with the category description"
 msgstr "Описание рубрики"
 
-#: inc/class-wpseo-replace-vars.php:1447
+#: inc/class-wpseo-replace-vars.php:1485
 msgid "Replaced with the current date"
 msgstr "Текущая дата"
 
-#: inc/class-wpseo-replace-vars.php:1449
+#: inc/class-wpseo-replace-vars.php:1487
 msgid "Replaced with the current month"
 msgstr "Текущий месяц"
 
-#: inc/class-wpseo-replace-vars.php:1479
+#: inc/class-wpseo-replace-vars.php:1517
 msgid "Replaced with the current page number"
 msgstr "Номер страницы текущей записи"
 
-#: inc/class-wpseo-replace-vars.php:1477
+#: inc/class-wpseo-replace-vars.php:1515
 msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
 msgstr "Номер текущей страницы в контексте (т. е. страница 2 из 4)"
 
-#: inc/class-wpseo-replace-vars.php:1478
+#: inc/class-wpseo-replace-vars.php:1516
 msgid "Replaced with the current page total"
 msgstr "Общее количество страниц текущей записи"
 
-#: inc/class-wpseo-replace-vars.php:1444
+#: inc/class-wpseo-replace-vars.php:1482
 msgid "Replaced with the current search phrase"
 msgstr "Текущая фраза поиска"
 
-#: inc/class-wpseo-replace-vars.php:1437
+#: inc/class-wpseo-replace-vars.php:1475
 msgid "Replaced with the current tag/tags"
 msgstr "Текущая(ие) метка/метки"
 
-#: inc/class-wpseo-replace-vars.php:1448
+#: inc/class-wpseo-replace-vars.php:1486
 msgid "Replaced with the current year"
 msgstr "Текущий год"
 
-#: inc/class-wpseo-replace-vars.php:1429
+#: inc/class-wpseo-replace-vars.php:1467
 msgid "Replaced with the date of the post/page"
 msgstr "Дата записи/страницы"
 
-#: inc/class-wpseo-replace-vars.php:1438
+#: inc/class-wpseo-replace-vars.php:1476
 msgid "Replaced with the post categories (comma separated)"
 msgstr "Рубрики записи (через запятую)"
 
-#: inc/class-wpseo-replace-vars.php:1474
+#: inc/class-wpseo-replace-vars.php:1512
 msgid "Replaced with the post/page ID"
 msgstr "ID записи/страницы"
 
-#: inc/class-wpseo-replace-vars.php:1476
+#: inc/class-wpseo-replace-vars.php:1514
 msgid "Replaced with the post/page author's 'Biographical Info'"
 msgstr "Биография автора записи/страницы"
 
-#: inc/class-wpseo-replace-vars.php:1475
+#: inc/class-wpseo-replace-vars.php:1513
 msgid "Replaced with the post/page author's 'nicename'"
 msgstr "Псевдоним автора записи/страницы"
 
-#: inc/class-wpseo-replace-vars.php:1435
+#: inc/class-wpseo-replace-vars.php:1473
 msgid "Replaced with the post/page excerpt (or auto-generated if it does not exist)"
 msgstr "Цитата записи/страницы (при отсутствии генерируется автоматически)"
 
-#: inc/class-wpseo-replace-vars.php:1436
+#: inc/class-wpseo-replace-vars.php:1474
 msgid "Replaced with the post/page excerpt (without auto-generation)"
 msgstr "Цитата записи/страницы (без автоматической генерации)"
 
-#: inc/class-wpseo-replace-vars.php:1473
+#: inc/class-wpseo-replace-vars.php:1511
 msgid "Replaced with the post/page modified time"
 msgstr "Время изменения записи/страницы"
 
-#: inc/class-wpseo-replace-vars.php:1482
+#: inc/class-wpseo-replace-vars.php:1520
 msgid "Replaced with the slug which caused the 404"
 msgstr "Ярлык, вызвавший ошибку 404"
 
-#: inc/class-wpseo-replace-vars.php:1441
+#: inc/class-wpseo-replace-vars.php:1479
 msgid "Replaced with the tag description"
 msgstr "Описание метки"
 
-#: inc/class-wpseo-replace-vars.php:1442
+#: inc/class-wpseo-replace-vars.php:1480
 msgid "Replaced with the term description"
 msgstr "Описание термина"
 
-#: inc/class-wpseo-replace-vars.php:1443
+#: inc/class-wpseo-replace-vars.php:1481
 msgid "Replaced with the term name"
 msgstr "Название термина"
 
-#: inc/class-wpseo-replace-vars.php:1431
+#: inc/class-wpseo-replace-vars.php:1469
 msgid "Replaced with the title of the parent page of the current page"
 msgstr "Заголовок родительской страницы"
 
-#: inc/class-wpseo-replace-vars.php:1430
+#: inc/class-wpseo-replace-vars.php:1468
 msgid "Replaced with the title of the post/page"
 msgstr "Название записи/страницы"
 
@@ -3808,7 +3813,7 @@ msgstr "Название записи/страницы"
 msgid "The default card type to use"
 msgstr "Использовать тип карточки по-умолчанию"
 
-#: inc/class-wpseo-replace-vars.php:1433
+#: inc/class-wpseo-replace-vars.php:1471
 msgid "The site's name"
 msgstr "Имя сайта"
 
@@ -3841,7 +3846,7 @@ msgstr "Чтобы %1$sподтвердить авторство сайта дл
 msgid "You cannot overrule a WPSEO standard variable replacement by registering a variable with the same name. Use the \"wpseo_replacements\" filter instead to adjust the replacement value."
 msgstr "Вы не можете переопределить стандартную переменную плагина. Чтобы изменить значение этой переменной, используйте фильтр «wpseo_replacements»."
 
-#: inc/class-wpseo-replace-vars.php:1450
+#: inc/class-wpseo-replace-vars.php:1488
 msgid "Replaced with the current day"
 msgstr "Заменено на текущий день"
 
@@ -3852,10 +3857,11 @@ msgid "Import from other SEO plugins"
 msgstr "Импортировать из других плагинов SEO"
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:15
+#: js/dist/new-settings.js:3
 msgid "Content to put after each post in the feed"
 msgstr "Контент ставить после каждого сообщения"
 
-#: inc/class-wpseo-replace-vars.php:1480
+#: inc/class-wpseo-replace-vars.php:1518
 msgid "Attachment caption"
 msgstr "Подпись под вложением"
 
@@ -3869,6 +3875,7 @@ msgid "Export your %1$s settings"
 msgstr "Экспортировать ваши %1$sнастройки."
 
 #: admin/views/tabs/metas/paper-content/rss-content.php:20
+#: js/dist/new-settings.js:3
 msgid "You can use the following variables within the content, they will be replaced by the value on the right."
 msgstr "Следующие переменные можно использовать в шаблоне, они будут заменены на значения, указанные справа."
 
@@ -3887,11 +3894,11 @@ msgstr "На сайте отсутствует файл %s, создайте е�
 msgid "Meta description to use for Author page"
 msgstr "Мета-описание для страницы автора"
 
-#: inc/class-wpseo-replace-vars.php:1472
+#: inc/class-wpseo-replace-vars.php:1510
 msgid "Replaced with the content type plural label"
 msgstr "Заменено на множественное число лейбла типа содержимого"
 
-#: inc/class-wpseo-replace-vars.php:1471
+#: inc/class-wpseo-replace-vars.php:1509
 msgid "Replaced with the content type single label"
 msgstr "Заменено на единственное число лейбла типа содержимого"
 
@@ -3901,7 +3908,7 @@ msgstr "Заменено на единственное число лейбла �
 msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
 msgstr "Заметка для администратора: на этой странице не отображается мета-описание, потому что оно не задано. Укажите его для данной страницы, либо перейдите в меню [%1$s - %2$s] и настройте шаблон."
 
-#: inc/class-wpseo-replace-vars.php:1481
+#: inc/class-wpseo-replace-vars.php:1519
 msgid "Replaced with the posts focus keyphrase"
 msgstr "Заменяется фокусным ключевым словом записи"
 
@@ -4012,12 +4019,13 @@ msgstr "Если вы ведете свой личный блог, архив а
 msgid "Optimize your videos to show them off in search results and get more clicks!"
 msgstr "Оптимизируйте свои видео-записи, чтобы они попадали в результаты поиска и получали больше кликов!"
 
-#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:33
-#: src/integrations/admin/first-time-configuration-integration.php:427
+#: admin/views/tabs/metas/paper-content/general/knowledge-graph.php:47
+#: src/integrations/admin/first-time-configuration-integration.php:490
 msgid "Person"
 msgstr "Частное лицо"
 
-#: admin/pages/metas.php:24
+#: admin/pages/metas.php:24 js/dist/new-settings.js:3
+#: js/dist/new-settings.js:35
 msgid "RSS"
 msgstr "RSS"
 
@@ -4064,7 +4072,7 @@ msgstr "Таксономии"
 msgid "These pages will be %s by default, so they will never show up in search results."
 msgstr "Эта страница %s по умолчанию проиндексирована не будет, а это значит, что в выдаче поисковых систем не отобразится."
 
-#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1430
+#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1468
 #: js/dist/externals-redux.js:1
 msgid "Title"
 msgstr "Название"
@@ -4125,7 +4133,7 @@ msgstr "Страницы 404"
 msgid "Search pages"
 msgstr "Страницы поиска"
 
-#: admin/pages/dashboard.php:53
+#: admin/pages/dashboard.php:56
 msgid "Webmaster Tools"
 msgstr "Инструменты веб-мастеров"
 
@@ -4184,7 +4192,7 @@ msgstr "С помощью этой формы можно восстановит�
 msgid "Breadcrumbs"
 msgstr "Цепочки навигации"
 
-#: inc/class-wpseo-replace-vars.php:1456
+#: inc/class-wpseo-replace-vars.php:1494
 msgid "Permalink"
 msgstr "Постоянная ссылка"
 
@@ -4218,11 +4226,11 @@ msgstr "Деактивировать %s"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: admin/class-meta-columns.php:99
+#: admin/class-meta-columns.php:108
 msgid "Meta Desc."
 msgstr "Мета описание"
 
-#: admin/pages/social.php:21
+#: admin/pages/social.php:21 js/dist/new-settings.js:35
 msgid "Pinterest"
 msgstr "Pinterest"
 
@@ -4251,7 +4259,7 @@ msgstr "Это изображение должно быть как миниму�
 msgid "Archives"
 msgstr "Архивы"
 
-#: admin/class-meta-columns.php:223
+#: admin/class-meta-columns.php:239
 msgid "All SEO Scores"
 msgstr "Все оценки SEO"
 
@@ -4345,7 +4353,7 @@ msgstr "Ссылка на профиль в Facebook"
 msgid "Filter"
 msgstr "Фильтр"
 
-#: inc/class-wpseo-replace-vars.php:1481
+#: inc/class-wpseo-replace-vars.php:1519
 msgid "Focus keyword"
 msgstr "Фокусное ключевое слово"
 
@@ -4388,7 +4396,7 @@ msgstr "Статус"
 msgid "Post doesn't exist."
 msgstr "Запись не существует."
 
-#: admin/class-meta-columns.php:657
+#: admin/class-meta-columns.php:673
 msgid "Post is set to noindex."
 msgstr "Запись отмечена как неиндексируемая."
 
@@ -4415,14 +4423,14 @@ msgstr "Дата публикации"
 
 #: admin/metabox/class-metabox.php:417
 #: admin/taxonomy/class-taxonomy-metabox.php:132
-#: inc/class-wpseo-admin-bar-menu.php:508
+#: inc/class-wpseo-admin-bar-menu.php:534
 #: src/presenters/meta-description-presenter.php:36
 #: src/services/health-check/report-builder.php:168
 #: js/dist/structured-data-blocks.js:13
 msgid "SEO"
 msgstr "SEO"
 
-#: admin/class-meta-columns.php:98
+#: admin/class-meta-columns.php:107
 msgid "SEO Title"
 msgstr "SEO заголовок"
 
@@ -4452,7 +4460,7 @@ msgstr "Социальные сети"
 msgid "The URL that this page should redirect to."
 msgstr "URL-адрес, на который должна перенаправлять эта страница."
 
-#: admin/menu/class-admin-menu.php:97
+#: admin/menu/class-admin-menu.php:97 js/dist/new-settings.js:35
 msgid "Tools"
 msgstr "Инструменты"
 
@@ -4460,7 +4468,7 @@ msgstr "Инструменты"
 msgid "Twitter username (without @)"
 msgstr "Ваше имя на Twitter (без @)"
 
-#: admin/class-config.php:128 admin/metabox/class-metabox.php:906
+#: admin/class-config.php:134 admin/metabox/class-metabox.php:906
 #: admin/taxonomy/class-taxonomy.php:166
 #: src/integrations/third-party/elementor.php:424
 msgid "Use Image"
@@ -4544,7 +4552,7 @@ msgstr "Мета-описание"
 msgid "Post has an invalid Content Type: %s."
 msgstr "У записи неверный тип: %s."
 
-#: admin/views/class-yoast-feature-toggles.php:126
+#: admin/views/class-yoast-feature-toggles.php:126 js/dist/new-settings.js:35
 msgid "XML sitemaps"
 msgstr "XML-карта сайта"
 

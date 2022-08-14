@@ -11,7 +11,6 @@
 require_once __DIR__ . '/Fmtest_Menu.php';
 
 
-
 add_action('wp_enqueue_scripts', 'fmtest_scripts');
 function fmtest_scripts()
 {
@@ -38,8 +37,48 @@ function fmtest_scripts()
 function fmtest_setup()
 {
     add_theme_support('post-thumbnails');
+    add_theme_support('title-tag');
+    add_theme_support('custom-logo', array(
+        'height' => 49,
+        'width' => 82,
+        'flex-width' => false,
+        'flex-height' => false,
+    ));
+    add_theme_support('custom-background', array(
+        'default-color' => 'ffffff',
+//        'default-image' => get_template_directory_uri().'/assets/images/background.jpg',
+    ));
     add_theme_support('post-formats', array('aside', 'link', 'image', 'status'));
 }
+
+function fmtest_customize_register($wp_customize)
+{
+    $wp_customize->add_setting(
+        'fmtest_link_color', array(
+            'default' => '#6B69CA',
+            'transport' => 'refresh',
+        )
+    );
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'fmtest_link_color', array(
+        'label' => __('Цвет ссылок'),
+        'section' => 'colors',
+        'settings' => 'fmtest_link_color'
+    )));
+}
+add_action('customize_register', 'fmtest_customize_register');
+
+function fmtest_customize_css()
+{
+    ?>
+    <style type="text/css">
+        a {
+            color: <?php echo get_theme_mod('fmtest_link_color', '#6B69CA') ?>
+        }
+    </style>
+    <?php
+}
+
+add_action('wp_head', 'fmtest_customize_css');
 
 add_action('after_setup_theme', 'fmtest_setup');
 function fmtest_menu()
@@ -69,6 +108,7 @@ function true_loadmore()
     endwhile;
     die;
 }
+
 add_action('wp_ajax_slideedit', 'true_slideedit');
 add_action('wp_ajax_nopriv_slideedit', 'true_slideedit');
 function true_slideedit()
@@ -87,8 +127,9 @@ function true_slideedit()
     }
     die;
 }
-add_action( 'after_setup_theme', function(){
-    show_admin_bar( false );
+
+add_action('after_setup_theme', function () {
+    show_admin_bar(true);
 });
 
 
